@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TerminosYCondiciones.unity
+    guid: 5cf13d8bb49f3cb4a8d97466f69addb8
+  - enabled: 1
+    path: Assets/Scenes/RegistrarUsuario.unity
+    guid: 7c653134c53cf4a498faa650fb1be5bb
+  - enabled: 1
+    path: Assets/Scenes/LogIn.unity
+    guid: 805c6f5dad216ec4f945e0e321bcd22d
+  - enabled: 1
+    path: "Assets/Scenes/Men\xFA.unity"
+    guid: cbd70699909184546bc10a0e5fffcfaa
+  - enabled: 1
+    path: Assets/Scenes/CoronelJuanGalidno.unity
+    guid: 3f7f5215e236f55489f85f83bf02d171
+  - enabled: 1
+    path: Assets/Scenes/TurbinaElectrica.unity
+    guid: abc250f7b38d51242b43a44eb6cf3ce0
+  - enabled: 1
+    path: Assets/Scenes/PlazaCivicaJG.unity
+    guid: 1bfe9dd610aa00640adb55e9b21eb20e
+  - enabled: 1
+    path: Assets/Scenes/PrecidensiaMunicipal.unity
+    guid: 672633725348c514eadcd9a3ceb64cf7
+  - enabled: 1
+    path: Assets/Scenes/TriviaJG.unity
+    guid: 7701ffd1b34c84e438977cb4bdb34581
+  - enabled: 1
+    path: Assets/Scenes/Perfil.unity
+    guid: 101309c64182e6a469289879c0a5f4a5
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: bbffdaaf98a2eb643b5ac9fb11c2d32d
+  - enabled: 1
+    path: Assets/Scenes/GeneradorQr.unity
+    guid: 65c5bcfc347d73e478e346c9930109d5
+  - enabled: 1
+    path: Assets/Scenes/NegociosDisp.unity
+    guid: 797866481c1b1ad438d35e00794a0529
+  m_configObjects:
+    Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: eda0a607cf26fcc42be6fe00a4cba2e2,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: cf3e24f16d68c8b4aad66a2ca08b7608,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 71bf59f523cf0344995f130e3f3d5f7a,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4de55fd1df193d84188e675654fdf57a,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bd955a7f0dc2ea047be8ab104a110426,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: fcf7dad8cc4839e498c6f759821f38e8,
+      type: 2}

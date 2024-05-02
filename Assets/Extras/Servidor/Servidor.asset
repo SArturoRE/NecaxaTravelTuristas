@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e064b47d41d7f6244b6816556cabc7fd, type: 3}
+  m_Name: Servidor
+  m_EditorClassIdentifier: 
+  servidor: https://mexilab.com/sartresfolder/
+  servicios:
+  - nombre: registrar
+    url: registrar_necaxatravel.php
+    parametros:
+    - nombre
+    - user_name
+    - email
+    - pass
+  - nombre: logIn
+    url: loginNecaxaTravel.php
+    parametros:
+    - email
+    - pass
+  - nombre: perfil
+    url: datosNT.php
+    parametros:
+    - user_name
+    - email
+  - nombre: CambiarPass
+    url: actualizarPass.php
+    parametros:
+    - email
+    - user_name
+    - nuevoPass
+  - nombre: ActualizaEmail
+    url: actualizar_correoNT.php
+    parametros:
+    - mail
+    - pass
+    - nemail
+  - nombre: SumarPuntos
+    url: ActualizarPuntosNT.php
+    parametros:
+    - user_name
+    - email
+    - puntosNu
+  ocupado: 0
+  resp:
+    codigo: 202
+    mensaje: Inicio de sesion exitoso
+    respuesta: '{"id":1,"nombre":"Salvador Arturo Ramirez Escamilla","user_name":"sartres96","email":"sartres96@gmail.com","puntos_obtenidos":0}'
