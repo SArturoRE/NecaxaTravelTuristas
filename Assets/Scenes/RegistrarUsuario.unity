@@ -5957,7 +5957,7 @@ GameObject:
   - component: {fileID: 2054448635}
   - component: {fileID: 2054448634}
   m_Layer: 5
-  m_Name: CorreoElectronico (1)
+  m_Name: Password
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

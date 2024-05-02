@@ -482,7 +482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0.2924528, b: 0.2660747, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -743,8 +743,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Aplicacion desarrollada por:\nSalvador Arturo Ramirez Escamilla.\n\nIdea
     Original:\nDoctor Juan Manuel Gonzalez Calleros y Salvador Arturo Ramirez Escamilla.
-    \n\nDesarrollada como parte de un proyecto de tesis que tiene por titulo:\n\"RECORRIDO
-    DEL CENTRO HIST\xD3RICO DE LA CIUDAD DE \r\nPUEBLA CON REALIDAD AUMENTADA.\r\""
+    \n\nDesarrollada como parte de un proyecto de tesis que tiene por titulo:\n\n\"RECORRIDO
+    DEL CENTRO HIST\xD3RICO DE LA CIUDAD DE \r\nPUEBLA CON REALIDAD AUMENTADA\""
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -772,7 +772,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 67.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -808,7 +808,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 34.808197, y: 5.3811035, z: 0, w: -0.5042114}
+  m_margin: {x: 34.808197, y: 34.685425, z: 23.44336, w: 11.217529}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
