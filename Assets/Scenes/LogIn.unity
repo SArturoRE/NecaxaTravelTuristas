@@ -155,10 +155,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 95884900}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.82112503}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8.772278, y: 779}
-  m_SizeDelta: {x: -133.25, y: -1704.8793}
+  m_AnchoredPosition: {x: -8.772278, y: -9}
+  m_SizeDelta: {x: -133.25, y: -128.87927}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2198271
 MonoBehaviour:
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60.8
+  m_fontSize: 60.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
