@@ -49,6 +49,11 @@ MonoBehaviour:
     - user_name
     - email
     - puntosNu
+  - nombre: SendEmail
+    url: SendEmail.php
+    parametros:
+    - nombre
+    - email
   ocupado: 0
   resp:
     codigo: 202

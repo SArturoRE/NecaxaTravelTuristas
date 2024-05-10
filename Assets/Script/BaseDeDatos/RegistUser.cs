@@ -10,6 +10,7 @@ public class RegistUser : MonoBehaviour
 {
     public Servidor servidor;
     public UsuarioDB user;
+    [SerializeField] private SendEmail sendCorreo;
     public TMP_InputField inpName;
     public TMP_InputField inpUserName;
     public TMP_InputField inpEmail;
@@ -62,6 +63,7 @@ public class RegistUser : MonoBehaviour
         if (servidor.resp.codigo == 201)
         {
             user = JsonUtility.FromJson<UsuarioDB>(servidor.resp.respuesta);
+            sendCorreo.EnviarCorreo(user.nombre,user.email);
             PlayerPrefs.SetString("Email",user.email);
             PlayerPrefs.SetString("UserName",user.user_name);
             nombre.text = "Bienvenid@ " + user.user_name + "\n Ahora ya tienes un usuario creado...";
