@@ -47,11 +47,11 @@ MonoBehaviour:
   textQuestion: "\xBFQu\xE9 empez\xE1 continuo con los trabajos de \"La societe de
     necaxa\" cuando esta se disolvi\xF3?"
   opciones:
-  - text: cfe
+  - text: CFE
     correct: 0
-  - text: lyfc
+  - text: LyFC
     correct: 0
   - text: Mexican Ligth
     correct: 1
-  - text: telmex
+  - text: Telmex
     correct: 0

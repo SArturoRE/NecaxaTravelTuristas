@@ -127,17 +127,16 @@ public class InformacionPlazaCiviva : MonoBehaviour
             case 9:
                 /* trenNec.SetActive(false);
                  trenNec2.SetActive(true);*/
-                trenNec.SetActive(true);
+                //trenNec.SetActive(true);
                // trenNec2.SetActive(false);
                 break;
             case 10:
                 trenNec.SetActive(false);
-                //trenNec2.SetActive(true);
-                angelDelTurismo.SetActive(false);
+                venustianoCarr.SetActive(true);
                 break;
-            case 13:
-                trenNec2.SetActive(true);
-                centralHidro.SetActive(false);
+            case 11:
+                venustianoCarr.SetActive(false);
+                trenNec.SetActive(true); 
                 break;
             case 14:
                 /* cuadroImagenes.transform.position = new Vector3(1.43094063f, 1.39999998f, 1.31682158f);
@@ -145,19 +144,11 @@ public class InformacionPlazaCiviva : MonoBehaviour
                 cuadroImagenes[1].SetActive(true);
                 cuadroImagenes[2].SetActive(false);
                 //trenNec2.SetActive(false);
-                centralHidro.SetActive(true);
+                //centralHidro.SetActive(true);
                 break;
             case 15:
                 cuadroImagenes[1].SetActive(false);
                 cuadroImagenes[2].SetActive(true);
-                break;
-            case 16:
-                centralHidro.SetActive(true);
-                venustianoCarr.SetActive(false);
-                break;
-            case 17:
-                centralHidro.SetActive(false);
-                venustianoCarr.SetActive(true);
                 break;
             case 19:
                 btnSiguiente.SetActive(true);

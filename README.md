@@ -26,7 +26,7 @@ es una aplicacion que nos permitira canjear los puntos que se consigan en esta a
 # Base de datos:
 <br>
 Se agregaron las base de datos con las unity Request cuya documentacion la encuentras abajo <br>
-- <link rel="Accede a la documentacion desde aqui..." href="https://docs.unity3d.com/es/530/Manual/UnityWebRequest.html"/><br>
+- https://docs.unity3d.com/es/530/Manual/UnityWebRequest.html<br>
 
 # Codigos php de respuesta en nuestra aplicacion:
 
