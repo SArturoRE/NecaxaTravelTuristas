@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f17e796e4865aa4c9e6a35f2d1b7709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textQuestion: "\xBFQu\xE9 empez\xE1 continuo con los trabajos de \"La societe de
+  textQuestion: "\xBFQu\xE9 empresa continuo con los trabajos de \"La societe de
     necaxa\" cuando esta se disolvi\xF3?"
   opciones:
   - text: CFE

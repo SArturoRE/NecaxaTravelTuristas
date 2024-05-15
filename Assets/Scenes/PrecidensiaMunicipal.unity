@@ -710,10 +710,10 @@ RectTransform:
   - {fileID: 1768412929}
   m_Father: {fileID: 644193576}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.25662962, y: 0}
-  m_AnchorMax: {x: 0.76833344, y: 0.108}
-  m_AnchoredPosition: {x: -6.166687, y: 15.5}
-  m_SizeDelta: {x: -19.271973, y: -27.957703}
+  m_AnchorMin: {x: 0.3, y: 0}
+  m_AnchorMax: {x: 0.724111, y: 0.13925}
+  m_AnchoredPosition: {x: -12.959991, y: 23}
+  m_SizeDelta: {x: -56.37439, y: -93.962296}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &513605137
 MonoBehaviour:
@@ -1246,6 +1246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101842324}
   - component: {fileID: 1101842325}
+  - component: {fileID: 1101842326}
   m_Layer: 0
   m_Name: Scipt
   m_TagString: Untagged
@@ -1293,6 +1294,19 @@ MonoBehaviour:
   btnAnterior: {fileID: 787171738}
   btnProximaScene: {fileID: 1757033575}
   angelDelTurismo: {fileID: 393402132}
+--- !u!114 &1101842326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101842323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d451f078cd30f1e4f9170b1b78b499af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenemove: "Men\xFA"
 --- !u!1001 &1202996944
 PrefabInstance:
   m_ObjectHideFlags: 0

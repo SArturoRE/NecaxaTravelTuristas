@@ -48,7 +48,7 @@ MonoBehaviour:
   opciones:
   - text: 2008
     correct: 0
-  - text: 19003
+  - text: 1903
     correct: 0
   - text: 1925
     correct: 0

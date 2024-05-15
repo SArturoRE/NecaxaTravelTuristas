@@ -705,11 +705,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Hola, a continuaci\xF3n ver\xE1 una lista de negocios que apoyan este
     proyecto, para poder obtener alguno de los beneficios que has conseguido, por
-    favor dir\xEDgete a alguno de ellos y dir\xEDgete con un encargado para que te
-    proporcione la lista de productos que puedes canjear y el costo en puntos de
-    cada uno de ellos, muestra tu c\xF3digo QR el cual podr\xE1s generar en este
-    apartado o en el apartado \"Perfil\" y disfruta de los beneficios de este proyecto,
-    gracias."
+    favor dir\xEDgete a alguno de ellos y habla con un encargado para que te proporcione
+    la lista de productos que puedes canjear y el costo en puntos de cada uno de
+    ellos, muestra tu c\xF3digo QR el cual podr\xE1s generar en este apartado o en
+    la secci\xF3n \"Perfil\" y disfruta de los beneficios de este proyecto, gracias."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -737,7 +736,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62.75
+  m_fontSize: 64.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
