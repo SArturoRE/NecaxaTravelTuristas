@@ -40,7 +40,7 @@ public class InformacionPlazaCiviva : MonoBehaviour
     "De lo anterior se puede señalar que los vocablos aceptados y adoptados por la población con base en los estudios realizados son:",
     "NEMI CAXITL ATL, cuyo significado se transcribe a: Moradores del cajete de agua o concavidad del río.",
     "En 1954 el C: Adolfo Ruiz Cortinez, Presidente de la república, inaugura la planta de patla.",
-    "En 1960 El día 27 de septiembre el presidente de la república, Adolfo López Máteos nacionaliza la industria Eléctrica de México.",
+    "En 1960 El día 27 de septiembre el presidente de la república, Adolfo López Mateos nacionaliza la industria Eléctrica de México.",
     "Como dato curioso el 23 de mayo de 1920 se recibe el cuerpo en Villa Juárez, donde se le realiza la autopsia.",
     "Está estuvo a cargo de 2 médicos de Necaxa, el Dr. Carlos Sánchez Pérez médico de la Compañía de Luz y Fuerza, y el Dr. Armando Roberto Avellaneda Rosete, boticario del Pueblo.",
     "Posterior a la realización de los honores fúnebres y de haber designado a Villa Juárez como la Capital del País durante 3 días, se procede al penoso traslado del cuerpo hacia la ciudad de México.",
