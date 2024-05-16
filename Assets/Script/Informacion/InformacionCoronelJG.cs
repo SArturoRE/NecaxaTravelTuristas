@@ -83,10 +83,12 @@ public class InformacionCoronelJG : MonoBehaviour
                 angelDelTurismo.SetActive(true);
                 break;
             case 4:
-               cuadro.SetActive(false);
+                angelDelTurismo.SetActive(true);
+                cuadro.SetActive(false);
                 flechaimagenes.SetActive(false);
                 break;
             case 5:
+                angelDelTurismo.SetActive(false);
                 flechaimagenes.SetActive(true);
                 cuadro.SetActive(true);
                 imagenesCuadro1[0].SetActive(true);

@@ -21,9 +21,9 @@ public class InformacionTurvina : MonoBehaviour
     [SerializeField] private GameObject btnProximaScene;
     
     //Objetos para controlar los prefabs
-    [SerializeField] private GameObject[] flechaImagenes = new GameObject[2];
-    [SerializeField] private GameObject flechaturbina;
-    [SerializeField] private GameObject flechaPlaca;
+    [SerializeField] private GameObject[] flechaImagenes = new GameObject[3];
+  /*  [SerializeField] private GameObject flechaturbina;
+    [SerializeField] private GameObject flechaPlaca;*/
     [SerializeField] private GameObject flechaDireccion;
     [SerializeField] private GameObject flechaDireccion2;
     [SerializeField] private GameObject angelDelTurismo;
@@ -89,98 +89,80 @@ public class InformacionTurvina : MonoBehaviour
         {
             case 0:
                 btnAnterior.SetActive(false);
-                flechaImagenes[0].SetActive(false);
+                flechaImagenes[2].SetActive(false);
                 cuadroImagenes.SetActive(false);
+                angelDelTurismo.SetActive(true);
                 break;
             case 1:
-                angelDelTurismo.transform.position = new Vector3(4.36999989f, 1.204f, -4.48999977f);
+                angelDelTurismo.SetActive(false);
                 btnAnterior.SetActive(true);
                 cuadroImagenes.SetActive(true);
-                flechaImagenes[0].SetActive(true);
+                flechaImagenes[2].SetActive(true);
                 imagenes[0].SetActive(true);
                 imagenes[1].SetActive(false);
-               /* necaxaAntiguo.SetActive(true);
-                cascadaSalto.SetActive(false);*/
                 break;
             case 2:
                 imagenes[1].SetActive(true);
                 imagenes[0].SetActive(false);
-               /* necaxaAntiguo.SetActive(false);
-                cascadaSalto.SetActive(true);*/
                 break;
             case 3:
                 imagenes[0].SetActive(true);
                 imagenes[1].SetActive(false);
-                /*
-                necaxaAntiguo.SetActive(true);
-                cascadaSalto.SetActive(false);*/
                 break;
             case 7:
                 imagenes[0].SetActive(true);
                 imagenes[2].SetActive(false);
-               /* necaxaAntiguo.SetActive(true);
-                canaditas.SetActive(false);*/
                 break;
             case 8:
                 imagenes[0].SetActive(false);
                 imagenes[2].SetActive(true);
-                /*necaxaAntiguo.SetActive(false);
-                canaditas.SetActive(true);*/
                 break;
             case 9:
                 imagenes[0].SetActive(false);
                 imagenes[2].SetActive(true);
                 imagenes[4].SetActive(false);
-               /* necaxaAntiguo.SetActive(false);
-                canaditas.SetActive(true);
-                placaFundacion.SetActive(false);*/
                 break;
             case 10:
                 imagenes[2].SetActive(false); 
                 imagenes[4].SetActive(true);
-                /*canaditas.SetActive(false);
-                placaFundacion.SetActive(true);*/
                 break;
             case 11:
-                flechaturbina.SetActive(false);
-                //placaFundacion.SetActive(true);
+                flechaImagenes[0].SetActive(false);
+                flechaImagenes[2].SetActive(true);
+                // flechaturbina.SetActive(false);
                 imagenes[4].SetActive(true);
                 cuadroImagenes.SetActive(true);
                 break;
             case 12:
-                /*cuadroImagenes.transform.position = new Vector3(-0.325755566f, 1.17999995f, -2.46043134f);
-                cuadroImagenes.transform.rotation = Quaternion.Euler(270f, 168.574127f, 0f);*/
-                flechaImagenes[0].SetActive(false);
+               
+                flechaImagenes[0].SetActive(true);
+                flechaImagenes[2].SetActive(false);
+                flechaImagenes[1].SetActive(false);
                 cuadroImagenes.SetActive(false);
-                flechaturbina.SetActive(true);
-                flechaPlaca.SetActive(false);
-                /*angelDelTurismo.transform.position = new Vector3(4.36999989f, 1.204f, -4.48999977f);
-                angelDelTurismo.transform.rotation = Quaternion.Euler(0f, 12.4351721f, 0f);*/
+               /* flechaturbina.SetActive(true);
+                flechaPlaca.SetActive(false);*/
                 break;
             case 13:
-                /*angelDelTurismo.transform.position =  new Vector3(-2.32999992f, 1.33000004f, -2.56999993f);
-                angelDelTurismo.transform.rotation = Quaternion.Euler(0f, 114.526009f, 0f);*/
-                flechaturbina.SetActive(false);
-                flechaPlaca.SetActive(true);
-
+                flechaImagenes[0].SetActive(false);
+                flechaImagenes[1].SetActive(true);
+               /* flechaturbina.SetActive(false);
+                flechaPlaca.SetActive(true);*/
                 break;
             case 14:
-                flechaPlaca.SetActive(true);
-               // sme.SetActive(false);
+                //flechaPlaca.SetActive(true);
+                flechaImagenes[1].SetActive(true);
                 cuadroImagenes.SetActive(false);
                 cuadro2.SetActive(false);
                 break;
             case 15:
-                /*cuadroImagenes.SetActive(true);
-                cuadroImagenes.transform.position = new Vector3(-1.63999999f, 0.589999974f, 1.69000006f);
-                cuadroImagenes.transform.rotation = Quaternion.Euler(270f,229.201309f,0f);*/
+                
                 cuadro2.SetActive(true);
-                flechaPlaca.SetActive(false);
-                //placaFundacion.SetActive(false);
-                //sme.SetActive(true);
+                flechaImagenes[1].SetActive(false);
+                //flechaPlaca.SetActive(false);
                 break;
             case 17:
-                flechaPlaca.SetActive(false);
+                flechaImagenes[1].SetActive(false);
+                //flechaPlaca.SetActive(false);
                 cuadro2.SetActive(true);
                 btnProximaScene.SetActive(false);
                 btnSiguiente.SetActive(true);

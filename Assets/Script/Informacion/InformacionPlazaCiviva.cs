@@ -19,7 +19,9 @@ public class InformacionPlazaCiviva : MonoBehaviour
     [SerializeField] private GameObject btnProximaScene;
 
     //Objetos para controlar los prefabs
-    [SerializeField] private GameObject flechaImagenes;
+    [SerializeField] private GameObject flechaImagenes1;
+    [SerializeField] private GameObject flechaImagenes2;
+    [SerializeField] private GameObject flechaImagenes3;
     [SerializeField] private GameObject flechaDireccion;
     [SerializeField] private GameObject angelDelTurismo;
 
@@ -45,7 +47,7 @@ public class InformacionPlazaCiviva : MonoBehaviour
     "Está estuvo a cargo de 2 médicos de Necaxa, el Dr. Carlos Sánchez Pérez médico de la Compañía de Luz y Fuerza, y el Dr. Armando Roberto Avellaneda Rosete, boticario del Pueblo.",
     "Posterior a la realización de los honores fúnebres y de haber designado a Villa Juárez como la Capital del País durante 3 días, se procede al penoso traslado del cuerpo hacia la ciudad de México.",
     "Es de resaltar que el vagón destinado para transportar el cuerpo fue el vagón El Carmen, el vagón de lujo de la empresa, que transportó a 5 Presidentes de la República en sus distintas visitas a Necaxa.",
-    "Ya casi terminamos, podrías dirigirte a la Presidencia, que esta a tus espaldas (Solo ve en la dirección que te indica la flecha).",
+    "Ya casi terminamos, podrías dirigirte a la Presidencia, que esta a tus espaldas.",
     };
     private int i = 0;
 
@@ -78,9 +80,6 @@ public class InformacionPlazaCiviva : MonoBehaviour
     {
         SceneManager.LoadScene("PrecidensiaMunicipal");
 
-        /*posicion Vector3(-1.28999996,2.43000007,-3.8900001)
-         * rotacion Vector3(-1.28999996,2.43000007,-3.8900001)
-         */
     }
 
     public void MostrarContenido()
@@ -89,19 +88,17 @@ public class InformacionPlazaCiviva : MonoBehaviour
         {
             case 0:
                 btnAnterior.SetActive(false);
-                angelDelTurismo.transform.position = new Vector3(-1.50999999f, 1.90999997f, -8.31000042f);
-                angelDelTurismo.transform.rotation = Quaternion.Euler(1.63396776f, 44.2113724f, 356.241333f);
-                flechaImagenes.SetActive(true);
-                break;
-            case 1:
-                flechaImagenes.SetActive(false);
-                btnAnterior.SetActive(true);
-                angelDelTurismo.transform.position = new Vector3(-1.28999996f, 2.43000007f, -3.8900001f);
-                angelDelTurismo.transform.rotation = Quaternion.Euler(4.52634566e-07f, 272.923553f, 1.15504752e-08f);
-                cuadroImagenes[0].SetActive(false);
                 angelDelTurismo.SetActive(true);
                 break;
+            case 1:
+                angelDelTurismo.SetActive(true);
+                flechaImagenes1.SetActive(false);
+                btnAnterior.SetActive(true);
+                cuadroImagenes[0].SetActive(false);
+               
+                break;
             case 2:
+                flechaImagenes1.SetActive(true);
                 angelDelTurismo.SetActive(false);
                 cuadroImagenes[0].SetActive(true);
                 break;
@@ -112,10 +109,14 @@ public class InformacionPlazaCiviva : MonoBehaviour
             case 6:
                 placaNecaxa.SetActive(false);
                 centralHidro.SetActive(true);
+                flechaImagenes1.SetActive(true);
+                flechaImagenes2.SetActive(false);
                 cuadroImagenes[1].SetActive(false);
                 cuadroImagenes[0].SetActive(true);
                 break;
             case 7:
+                flechaImagenes1.SetActive(false);
+                flechaImagenes2.SetActive(true);
                 cuadroImagenes[0].SetActive(false);
                 cuadroImagenes[1].SetActive(true);
                 break;
@@ -141,12 +142,16 @@ public class InformacionPlazaCiviva : MonoBehaviour
             case 14:
                 /* cuadroImagenes.transform.position = new Vector3(1.43094063f, 1.39999998f, 1.31682158f);
                  cuadroImagenes.transform.rotation = Quaternion.Euler(270f, 113.734909f, 0f);*/
+                flechaImagenes3.SetActive(false);
+                flechaImagenes2.SetActive(true);
                 cuadroImagenes[1].SetActive(true);
                 cuadroImagenes[2].SetActive(false);
                 //trenNec2.SetActive(false);
                 //centralHidro.SetActive(true);
                 break;
             case 15:
+                flechaImagenes2.SetActive(false);
+                flechaImagenes3.SetActive(true);
                 cuadroImagenes[1].SetActive(false);
                 cuadroImagenes[2].SetActive(true);
                 break;
@@ -156,8 +161,7 @@ public class InformacionPlazaCiviva : MonoBehaviour
                 flechaDireccion.SetActive(false);
                 break;
             case 20:
-                angelDelTurismo.transform.position = new Vector3(3.20000005f, 2.17000008f, -1.70000005f);
-                angelDelTurismo.transform.rotation = Quaternion.Euler(356.077057f, 307.583221f, 358.814117f);
+                
                 flechaDireccion.SetActive(true);
                 btnSiguiente.SetActive(false);
                 btnProximaScene.SetActive(true);

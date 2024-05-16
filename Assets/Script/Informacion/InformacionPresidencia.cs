@@ -9,6 +9,7 @@ public class InformacionPresidencia : MonoBehaviour
     [SerializeField] private TMP_Text contenido;
     //aqui controlamos los Game object del contenido que mostraremos, las imagenes que mostraremos en esta version
     [SerializeField] private GameObject[] cuadroImagenes;
+    [SerializeField] private GameObject[] flechasImagenes;
     [SerializeField] private GameObject igesiaNecaxa;
     [SerializeField] private GameObject igesiaCanaditas;
     [SerializeField] private GameObject feria;
@@ -73,10 +74,12 @@ public class InformacionPresidencia : MonoBehaviour
         switch (i)
         {
             case 0:
+                flechasImagenes[0].SetActive(false);
                 cuadroImagenes[0].SetActive(false);
                 btnAnterior.SetActive(false);
                 break;
             case 1:
+                flechasImagenes[0].SetActive(true);
                 cuadroImagenes[0].SetActive(true);
                 btnAnterior.SetActive(true);
                 igesiaNecaxa.SetActive(true);
@@ -89,10 +92,12 @@ public class InformacionPresidencia : MonoBehaviour
                 cuadroImagenes.transform.rotation = Quaternion.Euler(270f, 137.487976f, 0f);*/
                 cuadroImagenes[1].SetActive(false);
                 cuadroImagenes[0].SetActive(true);
+                flechasImagenes[1].SetActive(false);
+                flechasImagenes[0].SetActive(true);
                 break;
             case 3:
-                /* cuadroImagenes.transform.position = new Vector3(2.1099999f, 0.85710001f, -0.610000014f);
-                 cuadroImagenes.transform.rotation = Quaternion.Euler(270f, 149.588409f, 0f);*/
+                flechasImagenes[0].SetActive(false);
+                flechasImagenes[1].SetActive(true);
                 cuadroImagenes[0].SetActive(false);
                 cuadroImagenes[1].SetActive(true);
 
@@ -102,14 +107,14 @@ public class InformacionPresidencia : MonoBehaviour
                 feria.SetActive(true);
                 break;
             case 5:
-                /* cuadroImagenes.transform.position = new Vector3(2.1099999f, 0.85710001f, -0.610000014f);
-                 cuadroImagenes.transform.rotation = Quaternion.Euler(270f, 149.588409f, 0f);*/
+                flechasImagenes[2].SetActive(false); 
+                flechasImagenes[1].SetActive(true);
                 cuadroImagenes[2].SetActive(false);
                 cuadroImagenes[1].SetActive(true);
                 break;
             case 6:
-                /* cuadroImagenes.transform.position = new Vector3(7.28999996f, 0.85710001f, 2.43000007f);
-                 cuadroImagenes.transform.rotation = Quaternion.Euler(270f, 185.36261f, 0f);*/
+                flechasImagenes[1].SetActive(false);
+                flechasImagenes[2].SetActive(true);
                 cuadroImagenes[1].SetActive(false);
                 cuadroImagenes[2].SetActive(true);
                 break;
@@ -119,11 +124,13 @@ public class InformacionPresidencia : MonoBehaviour
                 break;
             case 9:
                 cuadroImagenes[2].SetActive(true);
+                flechasImagenes[2].SetActive(true);
                 angelDelTurismo.SetActive(false);
                 btnProximaScene.SetActive(false);
                 btnSiguiente.SetActive(true);
                 break;
             case 10:
+                flechasImagenes[2].SetActive(false);
                 cuadroImagenes[2].SetActive(false);
                 angelDelTurismo.SetActive(true);
                 btnProximaScene.SetActive(true);
@@ -132,22 +139,5 @@ public class InformacionPresidencia : MonoBehaviour
         }
     }
 
-    /*
-     * Posicion Original
-     * 
-     * position Vector3(-3.36999989,0.85710001,-4.86000013)
-     * rotation Vector3(270,137.487976,0)
-     * 
-     * 
-     * p1
-     * position Vector3(2.1099999,0.85710001,-0.610000014)
-     * rotation Vector3(270,149.588409,0)
-     * 
-     * 
-     * 
-     * p2
-     * 
-     * position Vector3(7.28999996,0.85710001,2.43000007)
-     * rotation Vector3(270,185.36261,0)
-     */
+ 
 }
