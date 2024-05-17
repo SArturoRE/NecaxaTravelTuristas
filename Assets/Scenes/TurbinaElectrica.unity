@@ -649,10 +649,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1313663383}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.21975002}
+  m_AnchorMin: {x: 0, y: 0.187}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 17.940674, y: 7.5}
-  m_SizeDelta: {x: -35.8813, y: 28.6504}
+  m_AnchoredPosition: {x: 17.940674, y: 10.913025}
+  m_SizeDelta: {x: -35.8813, y: 21.825}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &396343720
 MonoBehaviour:
@@ -674,8 +674,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hola, empezaremos el recorrido, por favor colocate a no m\xE1s de 1 metro
-    del punto que se te muestra en la imagen de arriba."
+  m_text: "Ahora te encuentras enfrente de la turbina el\xE9ctrica que generaba electricidad
+    en la presa de necaxa, por favor colocate aproximadamente en el punto que se
+    te muestra en la imagen y presta mucha atenci\xF3n al contenido que se aparecer\xE1."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -703,7 +704,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 82.5
+  m_fontSize: 67.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1094,7 +1095,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: fd6f2e2e936ceef41b711b477686b802,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.25
+      value: 0.386
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd6f2e2e936ceef41b711b477686b802,
         type: 3}
@@ -1109,37 +1110,37 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: fd6f2e2e936ceef41b711b477686b802,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.25848496
+      value: 0.06730193
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd6f2e2e936ceef41b711b477686b802,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.6400896
+      value: -0.22864851
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd6f2e2e936ceef41b711b477686b802,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.23934516
+      value: 0.7077505
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd6f2e2e936ceef41b711b477686b802,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.6827772
+      value: 0.6650411
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd6f2e2e936ceef41b711b477686b802,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -180.233
+      value: -103.556
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd6f2e2e936ceef41b711b477686b802,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 93.784
+      value: 63.008003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd6f2e2e936ceef41b711b477686b802,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 41.253006
+      value: 92.661
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: fd6f2e2e936ceef41b711b477686b802,
         type: 3}
@@ -1195,8 +1196,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.546}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.00036621094}
-  m_SizeDelta: {x: -589.3538, y: -0.0006}
+  m_AnchoredPosition: {x: 0, y: -2.4970703}
+  m_SizeDelta: {x: -0.00012207, y: -64.9124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &877855306
 MonoBehaviour:
@@ -1218,7 +1219,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aeab4da281f11864bb41c609afd5c022, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 96231a4b13e7f3a4e8b0b126fe390ac9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

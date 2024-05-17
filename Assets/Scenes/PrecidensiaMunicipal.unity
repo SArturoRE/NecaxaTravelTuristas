@@ -648,10 +648,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 644193576}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.63600004}
-  m_AnchorMax: {x: 1, y: 0.9676668}
-  m_AnchoredPosition: {x: 0, y: -1.5}
-  m_SizeDelta: {x: -62.832, y: -39.964813}
+  m_AnchorMin: {x: 0, y: 0.6121042}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -6.1471}
+  m_SizeDelta: {x: -62.832, y: -50.3055}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &408564879
 MonoBehaviour:
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dded9e8fd2be2f246a8fe94103dd1925, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 69b6d254b7bf7874d8cb8fb0296688c6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -946,7 +946,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &644193576
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2657,8 +2657,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hola, empezaremos el recorrido, por favor colocate a no m\xE1s de 1 metro
-    del punto que se te muestra en la imagen de arriba."
+  m_text: "Para este punto, estamos casi por terminar, te pedimos lo mismo, que te
+    coloques en el punto de referencia que se te muestra en la imagen de arriba,
+    ya que de esta manera podr\xE1s ser capaz de captar con mayor facilidad el contenido
+    que se pretende mostrar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -2686,7 +2688,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 82.5
+  m_fontSize: 61.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
