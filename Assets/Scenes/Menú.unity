@@ -737,6 +737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb664cd3fffed794ca7233fe7eac2ab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  indicacionesPanel: {fileID: 1828545814}
 --- !u!1 &532968300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1646,6 +1647,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 485657464}
+        m_TargetAssemblyTypeName: ControladorGeneral, Assembly-CSharp
+        m_MethodName: AceptarMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
