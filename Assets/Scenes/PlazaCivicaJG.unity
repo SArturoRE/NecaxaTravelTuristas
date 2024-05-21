@@ -507,10 +507,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1743482997}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.21975002}
-  m_AnchorMax: {x: 1, y: 0.5588542}
-  m_AnchoredPosition: {x: 17.940674, y: -3.4124756}
-  m_SizeDelta: {x: -35.8813, y: 6.8253}
+  m_AnchorMin: {x: 0, y: 0.17300001}
+  m_AnchorMax: {x: 1, y: 0.5926874}
+  m_AnchoredPosition: {x: 17.940674, y: 15.51}
+  m_SizeDelta: {x: -35.8813, y: -31.019}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &479255620
 MonoBehaviour:
@@ -533,8 +533,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Te encuentras en la plaza c\xEDvica \"Armada de M\xE9xico\" te pedimos
-    que te posiciones en el punto que se te muestra en la imagen de arriba, ya que
-    ser\xE1 en el atrio donde se mostrara el contenido de esta secci\xF3n."
+    que te posiciones en el punto que se te muestra en la imagen de arriba, m\xE1s
+    o menos a 2 o 3 metros enfrente de la plaza, ya que ser\xE1 en el atrio donde
+    se mostrara el contenido de esta secci\xF3n en la zona se\xF1alada por el rect\xE1ngulo
+    verde que se muestra.\r\nToma en cuenta que el contenido se mostrara dependiendo
+    de tu red, es por eso que si no se muestra algo, ten paciencia y espera un poco."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -562,7 +565,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 71.75
+  m_fontSize: 51.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2182,10 +2185,10 @@ RectTransform:
   - {fileID: 406615948}
   m_Father: {fileID: 1743482997}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.26784125, y: 0}
-  m_AnchorMax: {x: 0.75673807, y: 0.13925}
-  m_AnchoredPosition: {x: -13.179993, y: 17}
-  m_SizeDelta: {x: -104.33557, y: -82.892}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.13754167}
+  m_AnchoredPosition: {x: -0.17999268, y: 18.5}
+  m_SizeDelta: {x: -654.3356, y: -79.892}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1598338664
 MonoBehaviour:
@@ -2433,7 +2436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.18867922, b: 0.18302105, a: 0.5411765}
+  m_Color: {r: 0, g: 0.18867922, b: 0.18302105, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3048,7 +3051,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e65288d29e2d5f74980a5bcdad719fac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8aac922851f51804992a3272a1509e7a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

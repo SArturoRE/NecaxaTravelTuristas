@@ -650,7 +650,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.6121042}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -6.1471}
+  m_AnchoredPosition: {x: 0, y: -6.1470947}
   m_SizeDelta: {x: -62.832, y: -50.3055}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &408564879
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 69b6d254b7bf7874d8cb8fb0296688c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d915c8049a3b77642a88f49b32d4b01e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -725,10 +725,10 @@ RectTransform:
   - {fileID: 1768412929}
   m_Father: {fileID: 644193576}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.3, y: 0}
-  m_AnchorMax: {x: 0.724111, y: 0.13925}
-  m_AnchoredPosition: {x: -12.959991, y: 23}
-  m_SizeDelta: {x: -56.37439, y: -93.962296}
+  m_AnchorMin: {x: 0, y: 0.010416667}
+  m_AnchorMax: {x: 1, y: 0.14500001}
+  m_AnchoredPosition: {x: 0.040039062, y: 7.5}
+  m_SizeDelta: {x: -678.3744, y: -84.962296}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &513605137
 MonoBehaviour:
@@ -982,7 +982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.18867922, b: 0.18302105, a: 0.5411765}
+  m_Color: {r: 0, g: 0.18867922, b: 0.18302105, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2658,9 +2658,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Para este punto, estamos casi por terminar, te pedimos lo mismo, que te
-    coloques en el punto de referencia que se te muestra en la imagen de arriba,
-    ya que de esta manera podr\xE1s ser capaz de captar con mayor facilidad el contenido
-    que se pretende mostrar."
+    coloques en el punto de referencia que se te muestra en la imagen de arriba a
+    no m\xE1s de 2 o 3 metros de la entrada a la presidencia, ya que de esta manera
+    podr\xE1s ser capaz de captar con mayor facilidad el contenido que se pretende
+    mostrar el cual se estar\xE1 posicionado en la zona se\xF1alada con el rect\xE1ngulo
+    verde.\r\nToma en cuenta que el contenido se mostrara dependiendo de tu red,
+    es por eso que si no se muestra algo, ten paciencia y espera un poco."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -2688,7 +2691,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 61.8
+  m_fontSize: 42
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

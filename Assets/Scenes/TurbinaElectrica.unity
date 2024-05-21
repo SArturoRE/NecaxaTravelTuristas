@@ -649,10 +649,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1313663383}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.187}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 17.940674, y: 10.913025}
-  m_SizeDelta: {x: -35.8813, y: 21.825}
+  m_AnchorMin: {x: 0, y: 0.14550002}
+  m_AnchorMax: {x: 1, y: 0.546}
+  m_AnchoredPosition: {x: 17.940674, y: 9.913818}
+  m_SizeDelta: {x: -35.8813, y: -68.1543}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &396343720
 MonoBehaviour:
@@ -676,7 +676,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ahora te encuentras enfrente de la turbina el\xE9ctrica que generaba electricidad
     en la presa de necaxa, por favor colocate aproximadamente en el punto que se
-    te muestra en la imagen y presta mucha atenci\xF3n al contenido que se aparecer\xE1."
+    te muestra en la imagen a una distancia de m\xE1s o menos unos 2 o 3 metros de
+    la turbina, casi al principio del cartel de \"Necaxa Pueblo de Luz\" y presta
+    mucha atenci\xF3n al contenido que se aparecer\xE1.\r\nToma en cuenta que todo
+    el contenido se te mostrara en la zona se\xF1alada con el rect\xE1ngulo verde.\nToma
+    en cuenta que el contenido se mostrara dependiendo de tu red, es por eso que
+    si no se muestra algo, ten paciencia y espera un poco."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -704,7 +709,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 67.95
+  m_fontSize: 43.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -910,10 +915,10 @@ RectTransform:
   - {fileID: 160038940}
   m_Father: {fileID: 1313663383}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.24444444, y: 0.018749999}
-  m_AnchorMax: {x: 0.7833333, y: 0.161125}
-  m_AnchoredPosition: {x: -15, y: -3.5632935}
-  m_SizeDelta: {x: -153.88, y: -64.8734}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.14550002}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -651.88, y: -70.8734}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &545656771
 MonoBehaviour:
@@ -1219,7 +1224,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 96231a4b13e7f3a4e8b0b126fe390ac9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7ca82c4b4b8fd6d42b3e86bdbeb6ab4f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1829,7 +1834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.18867922, b: 0.18302105, a: 0.5411765}
+  m_Color: {r: 0, g: 0.18867922, b: 0.18302105, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

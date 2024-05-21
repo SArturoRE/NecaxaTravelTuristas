@@ -580,7 +580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.546}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.6156006, y: -2.016}
+  m_AnchoredPosition: {x: 1.6156006, y: -2.0159912}
   m_SizeDelta: {x: -68.5288, y: -68.5321}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &513842198
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f2d7ac5db7487f44abf92d9b75d57ea8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: da18e752020368d44aceba160f23c85d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1282,7 +1282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.18867922, b: 0.18302105, a: 0.5411765}
+  m_Color: {r: 0, g: 0.18867922, b: 0.18302105, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1708,7 +1708,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.45374075, y: 0.108}
-  m_AnchoredPosition: {x: 21.24121, y: 11.445984}
+  m_AnchoredPosition: {x: 0, y: 11.445984}
   m_SizeDelta: {x: -72.7896, y: -22.8917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1633933076
@@ -2187,10 +2187,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1154595360}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.16039583}
-  m_AnchorMax: {x: 1, y: 0.546}
-  m_AnchoredPosition: {x: 17.94, y: -5.4874}
-  m_SizeDelta: {x: -35.88, y: -51.4697}
+  m_AnchorMin: {x: 0, y: 0.136}
+  m_AnchorMax: {x: 1, y: 0.558}
+  m_AnchoredPosition: {x: 17.940002, y: -1.472229}
+  m_SizeDelta: {x: -35.88, y: -58.9443}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1839192052
 MonoBehaviour:
@@ -2212,10 +2212,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hola, empezaremos el recorrido, por favor colocate a no m\xE1s de 5 metros
-    del punto que se te muestra en la imagen de arriba.\r\nTe recomendamos colocarte
-    a un lado del asta bandera, por donde te indica el pnto de la imagen, para que
-    puedas apreciar bien los elementos que se ir\xE1n mostrando."
+  m_text: "Hola, empezaremos el recorrido. Por favor, col\xF3cate a no m\xE1s de
+    5 metros del punto que se te muestra en la imagen de arriba.\nTe recomendamos
+    colocarte a un lado del asta bandera, por donde te indica el punto de la imagen,
+    para que puedas apreciar bien los elementos que se ir\xE1n mostrando.\nTen en
+    cuenta que el contenido se mostrar\xE1 en la zona se\xF1alada con el rect\xE1ngulo
+    verde, por favor, no enfoques el tel\xE9fono hacia otro lado, si no, el contenido
+    no se mostrar\xE1, si no se muestra el contenido de manera inmediata, espera
+    un poco esto podr\xEDa deberse a la red de tu tel\xE9fono."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -2243,7 +2247,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64.7
+  m_fontSize: 46.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2481,7 +2485,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5351111, y: 0}
   m_AnchorMax: {x: 1, y: 0.108}
-  m_AnchoredPosition: {x: -16, y: 11.445984}
+  m_AnchoredPosition: {x: 0, y: 11.445984}
   m_SizeDelta: {x: -84.78961, y: -22.8917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2076574413

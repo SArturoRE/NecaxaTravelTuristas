@@ -1365,7 +1365,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFYa tienes una cuenta creada?"
+  m_Text: Ya tengo una cuenta creada.
 --- !u!222 &505764956
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1408,8 +1408,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 184.9967}
-  m_SizeDelta: {x: 0, y: -443.522}
+  m_AnchoredPosition: {x: 0, y: 211.52466}
+  m_SizeDelta: {x: 0, y: -496.5779}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &544098393
 CanvasRenderer:
@@ -1542,10 +1542,10 @@ RectTransform:
   - {fileID: 493287574}
   m_Father: {fileID: 1321757774}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -277, y: -517.2557}
-  m_SizeDelta: {x: 480.24, y: 223.3457}
+  m_AnchorMin: {x: 0, y: 0.07070834}
+  m_AnchorMax: {x: 0.5, y: 0.25800002}
+  m_AnchoredPosition: {x: 0, y: 7.6729736}
+  m_SizeDelta: {x: -59.76001, y: -136.6543}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &699057874
 MonoBehaviour:
@@ -2416,10 +2416,10 @@ RectTransform:
   - {fileID: 481886310}
   m_Father: {fileID: 1717775978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.26470837}
-  m_AnchorMax: {x: 1, y: 0.754}
-  m_AnchoredPosition: {x: 0, y: 6.0009766}
-  m_SizeDelta: {x: 0, y: -7.039978}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1017704508
 GameObject:
@@ -2620,7 +2620,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1049512996
@@ -4824,10 +4824,10 @@ RectTransform:
   - {fileID: 1397235131}
   m_Father: {fileID: 1717775978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.26470837}
-  m_AnchorMax: {x: 1, y: 0.754}
-  m_AnchoredPosition: {x: 0, y: 6.0009766}
-  m_SizeDelta: {x: 0, y: -7.039978}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576122053
 MonoBehaviour:
@@ -5036,10 +5036,10 @@ RectTransform:
   - {fileID: 1049512994}
   m_Father: {fileID: 1321757774}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 277, y: -517.2557}
-  m_SizeDelta: {x: 480.24, y: 223.3457}
+  m_AnchorMin: {x: 0.5, y: 0.09564584}
+  m_AnchorMax: {x: 1, y: 0.25800002}
+  m_AnchoredPosition: {x: 0, y: -16.570068}
+  m_SizeDelta: {x: -59.76001, y: -88.6543}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1610515088
 MonoBehaviour:
@@ -5219,7 +5219,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.2
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
