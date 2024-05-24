@@ -27,7 +27,7 @@ public class InformacionPlazaCiviva : MonoBehaviour
 
     //Colocaremos los botones para controlar cuando se muestran y cuando no.
     string[] contenidoPlaza = {
-    "Nos encontramos en el atrio de la plaza cívica Armada de México y te diremos más eventos interesantes de Juan Galindo, por favor dirígete al frente.",
+    "Comenzamos, recuerda disfrutar el contenido. La aplicación te irá mostrando unas flechas las cuales te muestran dónde se presentará el contenido o, en algunos casos, te mostrará monumento a los que la lectura está haciendo referencia y al último, estas te indicarán la dirección del próximo punto de la visita.",
     "¿Por qué lo llamamos Necaxa?",
     "La verdadera etimología de Necaxa nadie la ha podido explicar.",
     "Algunos piensan que se deriva de la palabra náhuatl NICATITLAZA, que significa tierras hundidas.",

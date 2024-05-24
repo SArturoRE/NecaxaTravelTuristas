@@ -33,7 +33,7 @@ public class InformacionTurvina : MonoBehaviour
 
     //Colocaremos los botones para controlar cuando se muestran y cuando no.
     string[] contenidoTextTur = {
-   "En este punto, te contaremos un poco de la historia de como Juan Galindo se volvió Pionero de la industria eléctrica.",
+   "Comenzamos, recuerda disfrutar el contenido. La aplicación te irá mostrando unas flechas las cuales te muestran dónde se presentará el contenido o, en algunos casos, te mostrará monumento a los que la lectura está haciendo referencia y al último, estas te indicarán la dirección del próximo punto de la visita.",
     "A principios de 1850 Don José Justo Gómez, Conde de la Cortina, hizo una visita a la zona de necaxa, poblado en su mayoría por otomíes.",
     "Y quedo maravillado por las impresionantes cascadas de Salto Chico y Salto Grande, las cuales formaban parte del río Necaxa.",
     "Al iniciar la colonización de la mesa de Metlaltoyuca o de Coroneles, un francés, el Dr. Vaquiere descubrió las posibilidades industriales de las aguas del río Necaxa.",

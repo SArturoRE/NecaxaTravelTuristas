@@ -25,6 +25,7 @@ public class InformacionPresidencia : MonoBehaviour
 
     //Colocaremos los botones para controlar cuando se muestran y cuando no.
     string[] contenidoPresi = {
+    "Comenzamos, recuerda disfrutar el contenido. La aplicación te irá mostrando unas flechas las cuales te muestran dónde se presentará el contenido o, en algunos casos, te mostrará monumento a los que la lectura está haciendo referencia y al último, estas te indicarán la dirección del próximo punto de la visita.",
     "Para concluir queremos contarte de algunas costumbres que se tienen en Juan Galindo, como la Religión, los medios de comunicación, deportes, etc.",
     "Religión: Predomina la religión católica, pero también existen sectas como la evangélica, pentecostés, espiritistas, etc. Cada una de ellas cuenta con su propio templo.",
     "Deportes: En este aspecto se practican los deportes como, básquet bol, voleibol, frontenis, beisbol, billar, squash y principalmente el futbol.",
@@ -106,13 +107,14 @@ public class InformacionPresidencia : MonoBehaviour
                 igesiaCanaditas.SetActive(false);
                 feria.SetActive(true);
                 break;
-            case 5:
+            case 6:
+                feria.SetActive(true);
                 flechasImagenes[2].SetActive(false); 
                 flechasImagenes[1].SetActive(true);
                 cuadroImagenes[2].SetActive(false);
                 cuadroImagenes[1].SetActive(true);
                 break;
-            case 6:
+            case 7:
                 flechasImagenes[1].SetActive(false);
                 flechasImagenes[2].SetActive(true);
                 cuadroImagenes[1].SetActive(false);
@@ -122,14 +124,14 @@ public class InformacionPresidencia : MonoBehaviour
                 feria.SetActive(false);
                 centralHid.SetActive(true);
                 break;
-            case 9:
+            case 10:
                 cuadroImagenes[2].SetActive(true);
                 flechasImagenes[2].SetActive(true);
                 angelDelTurismo.SetActive(false);
                 btnProximaScene.SetActive(false);
                 btnSiguiente.SetActive(true);
                 break;
-            case 10:
+            case 11:
                 flechasImagenes[2].SetActive(false);
                 cuadroImagenes[2].SetActive(false);
                 angelDelTurismo.SetActive(true);

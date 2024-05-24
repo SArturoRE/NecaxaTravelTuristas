@@ -25,7 +25,7 @@ public class InformacionCoronelJG : MonoBehaviour
 
 
     string[] contenidoTextCJG = {
-    "Te encuentras en el sitio correcto",
+    "Comenzamos, recuerda disfrutar el contenido. La aplicación te irá mostrando unas flechas las cuales te muestran dónde se presentará el contenido o, en algunos casos, te mostrará monumento a los que la lectura está haciendo referencia y al último, estas te indicarán la dirección del próximo punto de la visita.",
     "Hola, soy el ángel turista de esta aplicación y hoy vengo a hablarte del municipio de Juan Galindo",
     "Siendo un pueblo que data de la época Precortesiana, se ignora la fecha de su fundación.",
     "Se considera que fue fundado antes de la conquista, por lo cual se considera un pueblo de origen Náhuatl.",
