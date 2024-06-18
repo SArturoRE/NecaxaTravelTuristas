@@ -28,12 +28,6 @@ public class ControladorTrivia : MonoBehaviour
         m_quizUI = GameObject.FindObjectOfType<QuizUI>();
         m_audioSource = GetComponent<AudioSource>();
         preguntas = 0;
-        //por el momento agregaremos los datos desde aqui pero posteriormente se agregaran desde la esena principal
-      /*  PlayerPrefs.SetString("Email","sartres96@gmail.com");
-        PlayerPrefs.SetString("UserName","Sartres96");*/
-
-        // panelFinal.SetActive(false);
-       // Debug.Log("Ponemos"+PlayerPrefs.GetString("Email") + PlayerPrefs.GetString("UserName"));
         NextQuestion();
     }
     private void Update()
@@ -71,10 +65,6 @@ public class ControladorTrivia : MonoBehaviour
             op.SetColor(m_colorFail);
             puntajeValor -= 5;
         }
-
-        m_audioSource.clip = op.Option.correct ? m_correctSound : m_failSound;
-        op.SetColor(op.Option.correct ? m_colorCorrect : m_colorFail);
-
 
         m_audioSource.Play();
 

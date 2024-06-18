@@ -97,6 +97,5 @@ public class Respuesta
         public string user_name;
         public string email;
         public int puntos_obtenidos;
-        //public string pass;
     }
 }

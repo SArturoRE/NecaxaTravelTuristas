@@ -15,12 +15,6 @@ public class ActualizarCorreo : MonoBehaviour
     public GameObject panelActualizaCorreoFail;
     public TMP_Text mensajeActuTrue;
     public TMP_Text mensajeActufail;
-    /* public TMP_Text mensajeBienvenido;
-     public TMP_Text mensajeError;
-     public GameObject imgLoading;
-     public GameObject imgBienvenido;
-     public GameObject imgError;
-     public GameObject imgReestablecer;*/
 
 
     public void ActualizaCorreo()
@@ -29,7 +23,6 @@ public class ActualizarCorreo : MonoBehaviour
     }
     IEnumerator CambiaCorreo()
     {
-        //imgLoading.SetActive(true);
         string[] datos = new string[3];
         datos[0] = PlayerPrefs.GetString("Email");
         datos[1] = inpPass.text;
@@ -38,11 +31,8 @@ public class ActualizarCorreo : MonoBehaviour
         StartCoroutine(servidor.ConsumirServicio("ActualizaEmail", datos));
         yield return new WaitForSeconds(1.0f);
         yield return new WaitUntil(() => !servidor.ocupado);
-        //imgLoading.SetActive(false);
         if (servidor.resp.codigo == 203)
         {
-            //Debug.Log("Correo Actualizado Correctamente....");
-           // Debug.Log(servidor.resp.respuesta);
             PlayerPrefs.DeleteKey("Email");
             PlayerPrefs.SetString("Email",servidor.resp.respuesta);
             panelActualizaCorreo.SetActive(false);
@@ -57,19 +47,7 @@ public class ActualizarCorreo : MonoBehaviour
         {
             panelActualizaCorreoFail.SetActive(true);
             mensajeActufail.text = "Lo sentimos no se pudo actualizar tu correo\n" + servidor.resp.respuesta;
-           // mensajeError.text = servidor.resp.respuesta;
-            //imgError.SetActive(true);
-            // Debug.Log("Fallamos");
         }
-    }
-
-    public void Continuamos()
-    {
-        /*inpEmail.text = "";
-        inpUserName.text = "";
-        inpNuevoPass.text = "";
-        imgBienvenido.SetActive(false);
-        imgReestablecer.SetActive(false);*/
     }
 
     public void limpiar()
