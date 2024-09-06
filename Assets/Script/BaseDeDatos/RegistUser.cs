@@ -70,7 +70,7 @@ public class RegistUser : MonoBehaviour
             imgBienvenido.SetActive(true);
         }else
         {
-            mensajeError.text = "Ups!!! Algo salio mal, intentalo de nuevo";
+            mensajeError.text = "Ese nombre de usuario o correo electronico ya se encuentran registrados";
             imgError.SetActive(true);
         }
     }

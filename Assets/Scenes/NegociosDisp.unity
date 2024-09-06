@@ -317,7 +317,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: negocio 3
+  m_text: Negocio 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -1070,9 +1070,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'La poblanita
-
-'
+  m_text: Negocio 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -1100,7 +1098,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64.5
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1264,7 +1262,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 355.5897, y: 0.00012207031}
+  m_AnchoredPosition: {x: 410, y: -0.00012207}
   m_SizeDelta: {x: 303.7912, y: 98.555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887129319
@@ -1679,7 +1677,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 355.5897, y: 0.00012207031}
+  m_AnchoredPosition: {x: 416, y: -0.00012207}
   m_SizeDelta: {x: 303.7912, y: 98.555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1158153227
@@ -1838,7 +1836,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Direcion
+  m_text: "Direcci\xF3n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -2257,7 +2255,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'negocio2 '
+  m_text: Negocio 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -2539,7 +2537,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Direcion
+  m_text: "Direcci\xF3n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -2567,7 +2565,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 68.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2810,7 +2808,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Direcion
+  m_text: "Direcci\xF3n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -2946,7 +2944,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Direcion
+  m_text: "Direcci\xF3n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a33851a2ae113a94ebbf956c8aab1514, type: 2}
   m_sharedMaterial: {fileID: -186152977533859671, guid: a33851a2ae113a94ebbf956c8aab1514,
@@ -3325,7 +3323,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 355.5897, y: 0.00012207031}
+  m_AnchoredPosition: {x: 428, y: -0.00012207}
   m_SizeDelta: {x: 303.7912, y: 98.555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1814846444
